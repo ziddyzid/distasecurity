@@ -1,0 +1,29 @@
+
+<style>
+.container { 
+  height: 200px;
+  position: relative;
+  border: 3px solid black; 
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+body {
+	background-image:url('sec1.gif');
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow:hidden;
+  
+  
+}
+body{overflow: auto; height: 100%; font-size: 81.44% /* change if needed */;}
+}
+</style>
