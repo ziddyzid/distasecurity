@@ -1,0 +1,230 @@
+@media only screen and (orientation:portrait){
+    body {
+      height: 100vw;
+      transform: rotate(90deg);
+    }
+  }
+html {
+    background-image: url("hw.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+.tit {
+    text-align: center;
+    color: aquamarine;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+.men {
+    float: left;
+    border: aqua solid 4px;
+    border-radius: 33%;
+    padding: 8px;
+    background-color: #b38bc4;
+    font-size: 75%;
+}
+.men:hover {
+    background-color: #d97e7e;
+}
+.pernam{
+    float: right;
+    color: deepskyblue;
+}
+.add{
+    color: rgb(255, 252, 252);
+    position: fixed;
+    bottom: 0;
+}
+.mainsec{
+    border: solid 2px navy;
+    width: 99%;
+    height: 80vh;
+    margin: auto;
+    background-color: rgba(210, 105, 30, 0.451);
+}
+.reg{
+    border: solid 2px crimson;
+    background-color: rgba(0, 255, 208, 0.491);
+    width: 99%;
+    height: 85%;
+    overflow: auto;
+    float: left;
+    text-align: center;
+}
+.titl{
+    color: rgb(3, 91, 255);
+    font-weight: bold;
+    font-size: 125%;
+}
+.btbl{
+    border: solid 1px blue;
+    width: 98%;
+    margin: auto;
+    font-size: 65%;
+}
+.btbl th {
+    width: 15%;
+    border:black 4px solid;
+    background-color: #ebd088;
+    text-align: center;
+}
+.btbl td {
+    width: 15%;
+    border:black 4px solid;
+    background-color: #88d9eb;
+    text-align: center;
+}
+.crdnam{
+    border: solid 2px crimson;
+    background-color: rgba(136, 255, 0, 0.491);
+    width: 99%;
+    height: 35%;
+    overflow: auto;
+    text-align: center; 
+}
+.credsec{
+    border: solid 2px crimson;
+    background-color: rgba(255, 230, 0, 0.491);
+    width: 30%;
+    height: 97%;
+    overflow: auto;
+    float: left;
+    text-align: center; 
+}
+.numin{
+    width: 30%;
+}
+.crerec{
+    border: solid 2px crimson;
+    background-color: rgba(255, 153, 0, 0.473);
+    width: 25%;
+    height: 97%;
+    overflow: auto;
+    float: left;
+    text-align: center;   
+}
+.crser{
+    border: solid 1px navy;
+    background-color: rgba(0, 255, 251, 0.491);
+    width: 99%;
+    height: 25%;
+    overflow: auto;
+    text-align: center; 
+}
+.crrec{
+    border: solid 1px navy;
+    background-color: rgba(0, 153, 255, 0.491);
+    width: 99%;
+    height: 65%;
+    overflow: auto;
+    float: left;
+    text-align: center; 
+}
+.btnam{
+    border: solid 1px black;
+    background-color: rgb(218, 223, 111);
+    padding: 4px;
+    width: 30%;
+    height: 15%;
+    font-size: 65%;
+    font-weight: bold;
+    float: left;
+    overflow: auto;
+}
+.abtn{
+    border: solid 2px lightslategrey;
+    background-color: rgb(197, 195, 69);
+}
+.abtn:hover{
+    cursor: pointer;
+    background-color: #b38bc4;
+    color: beige;
+}
+.creser{
+    border: solid 2px lightslategrey;
+    background-color: rgb(69, 159, 197);
+}
+.creser:hover{
+    cursor: pointer;
+    background-color: #c48b8b;
+    color: beige;
+}
+.crres{
+    border: solid 2px lightslategrey;
+    background-color: rgb(197, 69, 69);
+}
+.crres:hover{
+    cursor: pointer;
+    background-color: #4dd15c;
+    color: beige;
+}
+.savcre{
+    border: solid 2px lightslategrey;
+    background-color: rgb(105, 89, 213);
+}
+.savcre:hover{
+    cursor: pointer;
+    background-color: #4dd1c2;
+    color: beige;
+}
+.crp{
+    border: solid 2px darkgreen;
+    background-color: #b38bc47e;
+    width: 40%;
+    height: 97%;
+    overflow: auto;
+    float: right;
+    text-align: center;
+}
+.crpt{
+    border: solid 2px goldenrod;
+    background-color: #88d9eb78;
+    width: 99%;
+    height: 10%;
+}
+.pnumin{
+    width: 15%;
+}
+.pmtrec{
+    border: solid 2px goldenrod;
+    background-color: #88d9eb78;
+    width: 99%;
+    height: 87%;
+    overflow: auto;
+}
+.pmttbl{
+    border: solid 1px yellow;
+    width: 100%;
+    background-color: #ebd088;
+}
+.pmttbl th{
+    border: solid 1px crimson;
+    width: 13%;
+    background-color: #937272;
+}
+.pmttbl td{
+    border: solid 1px crimson;
+    width: 13%;
+    background-color: #9e7575;
+    font-size: 65%;
+}
+.cbto{
+    border: solid 2px grey ;
+    width: 25%;
+    background-color: rgb(147, 119, 109);
+    float: right;
+    margin-top: 0%;
+    font-size: 75%;
+    padding: 4px;
+}
+.crdte{
+    border: solid 1px greenyellow;
+    width: 99%;
+    height: 47%;
+    overflow: auto;
+}

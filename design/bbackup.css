@@ -1,0 +1,116 @@
+@media only screen and (orientation:portrait){
+    body {
+      height: 100vw;
+      transform: rotate(90deg);
+    }
+  }
+html {
+    background-image: url("hw.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+     
+}
+.men {
+    float: left;
+    border: aqua solid 4px;
+    border-radius: 33%;
+    padding: 8px;
+    background-color: #b38bc4;
+    font-size: 75%;
+}
+.men:hover {
+    background-color: #d97e7e;
+}
+.tit {
+    text-align: center;
+    color: aquamarine;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+.dispm{
+   background-color: #5cd1d17a; 
+   width: 98%;
+   height:80vh;
+   text-align: center;
+   border: solid 6px #4f9cdb;
+   padding: 10px;
+   overflow: auto;
+}
+.all {
+   background-color: #4b90d686; 
+   width: 50%;
+   height: 80%;
+   text-align: center;
+   border: solid 6px #4f9cdb;
+   padding: 10px;
+   overflow: auto;
+   margin: auto;
+}
+table{
+    border: solid 2px black;
+    width: 95%;
+    margin: auto;
+}
+th {
+    border:black 4px solid;
+    background-color: #ebd088;
+    padding: 4px;
+    text-align: center;
+    font-size: 65%;
+}
+td {
+    border:black 4px solid;
+    background-color: #88d9eb;
+    padding: 2px;
+    text-align: center;
+    font-size: 65%;
+}
+.but {
+    border: solid 1px black;
+    padding: 6px;
+    background-color: #7BDDF2;
+    color: crimson;
+    font-weight: bold;
+    float: right;
+}
+.but:hover {
+    cursor: pointer;
+    background-color: #EAE45C;
+    color: crimson; 
+}
+.butl {
+    border: solid 1px black;
+    padding: 6px;
+    background-color: #7BDDF2;
+    color: crimson;
+    font-weight: bold;
+    float: left;
+}
+.butl:hover {
+    cursor: pointer;
+    background-color: #EAE45C;
+    color: crimson; 
+}
+.msgl {
+    border: solid 1px black;
+    padding: 6px;
+    background-color: #7BDDF2;
+    color: crimson;
+    font-weight: bold;
+    margin: auto;
+    width: 25%;
+}
+.pernam{
+    float: right;
+    color: deepskyblue;
+}
+.add{
+    color: rgb(255, 252, 252);
+    position: fixed;
+    bottom: 0;
+}

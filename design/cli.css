@@ -1,0 +1,136 @@
+@media only screen and (orientation:portrait){
+    body {
+      height: 100vw;
+      transform: rotate(90deg);
+    }
+  }
+html {
+    background-image: url("hw.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+     
+}
+.men {
+    float: left;
+    border: aqua solid 4px;
+    border-radius: 33%;
+    padding: 8px;
+    background-color: #b38bc4;
+    font-size: 75%;
+}
+.men:hover {
+    background-color: #d97e7e;
+}
+.tit {
+    text-align: center;
+    color: aquamarine;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+.pernam{
+    float: right;
+    color: deepskyblue;
+}
+.add{
+    color: rgb(255, 252, 252);
+    position: fixed;
+    bottom: 0;
+}
+.dispm{
+    background-color: #5cd1d17a; 
+    width: 98%;
+    height:80vh;
+    text-align: center;
+    border: solid 6px #4f9cdb;
+    padding: 10px;
+    overflow: auto;
+}
+.cout {
+    background-color: #f0f8006b; 
+    width: 40%;
+    height: 97%;
+    text-align: center;
+    border: solid 6px #4f9cdb;
+    float: left;
+    overflow: auto;
+}
+.cldsp{
+    border: solid 2px lightblue;
+    width: 99%;
+    height: 95%;
+    overflow: auto;
+    margin: auto;
+}
+.disptbl{
+    border: solid 2px black;
+    width: 99%;
+    margin: auto;
+}
+.disptbl th {
+    width: 20%;
+    border:black 4px solid;
+    background-color: #ebd088;
+    padding: 4px;
+    text-align: center;
+    font-size: 75%;
+}
+.disptbl td {
+    width: 20%;
+    border:black 4px solid;
+    background-color: #88d9eb;
+    padding: 2px;
+    text-align: center;
+    font-size: 65%;
+}
+.updcli{
+    border: solid 6px lightblue;
+    background-color: rgba(184, 135, 11, 0.498);
+    width: 50%;
+    height: 97%;
+    overflow: auto;
+    float: right;
+}
+.ins{
+    border: solid 2px royalblue;
+    width: 99%;
+    height: 45%;
+    overflow: auto;
+}
+.upd{
+    border: solid 2px royalblue;
+    margin-top: 4%;
+    width: 99%;
+    height: 45%;
+    overflow: auto;
+}
+.but {
+    border: solid 1px black;
+    border-radius: 35%;
+    padding: 6px;
+    background-color: #7BDDF2;
+    color: crimson;
+    font-weight: bold;
+    font-size: 75%;
+}
+.but:hover {
+    cursor: pointer;
+    color: rgb(20, 103, 220); 
+    background-color: burlywood;
+}
+.upinfo{
+    border: brown 2px solid;
+    width: 95%;
+    height: 70%;
+    margin: auto;
+    overflow: auto;
+}
+.msg{
+    font-weight: bolder;
+    color: crimson;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

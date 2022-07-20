@@ -1,0 +1,173 @@
+@media only screen and (orientation:portrait){
+    body {
+      height: 100vw;
+      transform: rotate(90deg);
+    }
+  }
+html {
+    background-image: url("hw.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+.tit {
+    text-align: center;
+    color: aquamarine;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+.men {
+    float: left;
+    border: aqua solid 4px;
+    border-radius: 33%;
+    padding: 8px;
+    background-color: #b38bc4;
+    font-size: 75%;
+}
+.men:hover {
+    background-color: #d97e7e;
+}
+.pernam{
+    float: right;
+    color: deepskyblue;
+}
+.add{
+    color: rgb(255, 252, 252);
+    position: fixed;
+    bottom: 0;
+}
+.mainsec{
+    border: solid 2px navy;
+    width: 99%;
+    height: 80vh;
+    margin: auto;
+    background-color: rgba(210, 105, 30, 0.451);
+    overflow: auto;
+}
+.lftsec{
+    border: solid 2px rgb(0, 0, 128);
+    background-color: rgba(184, 135, 11, 0.493);
+    width: 45%;
+    height: 99%;
+    overflow: auto;
+    float: left;
+    text-align: center;
+}
+.lfttit{
+    font-weight: bolder;
+    font-size: 125%;
+    color: rgb(124, 241, 186);
+}
+.lfttbl{
+    border: solid 2px darkblue;
+    width: 99%;
+    height: 95%;
+    overflow: auto;
+    margin: auto;
+}
+.retbl{
+    border: solid 1px royalblue;
+    width: 99%;
+    margin: auto;
+}
+.retbl th{
+    border: solid 1px crimson;
+    background-color: rgb(222, 184, 135);
+    width: 12%;
+    font-size: 75%;
+    color: crimson;
+}
+.retbl td{
+    border: solid 1px crimson;
+    background-color: rgb(250, 191, 113);
+    width: 12%; 
+    font-size: 65%;
+    color: navy;
+}
+.midsec{
+    border: solid 2px rgb(0, 0, 128);
+    background-color: rgba(184, 135, 11, 0.493);
+    width: 20%;
+    height: 99%;
+    overflow: auto;
+    float: left;
+    text-align: center; 
+}
+.midtbl{
+    border: solid 2px darkblue;
+    width: 96%;
+    height: 95%;
+    overflow: auto;
+    margin: auto;
+}
+.mitbl{
+    border: solid 1px royalblue;
+    width: 99%;
+    margin: auto;
+}
+.mitbl th{
+    border: solid 1px crimson;
+    background-color: rgb(222, 184, 135);
+    width: 25%;
+    font-size: 75%;
+    color: navy;
+}
+.mitbl td{
+    border: solid 1px crimson;
+    background-color: rgb(250, 191, 113);
+    width: 25%; 
+    font-size: 65%;
+    color: crimson;
+}
+.serwdt{
+    width: 20%;
+}
+.rgtsec{
+    border: solid 2px rgb(0, 0, 128);
+    background-color: rgba(184, 135, 11, 0.493);
+    width: 30%;
+    height: 99%;
+    overflow: auto;
+    float: right;
+    text-align: center;  
+}
+.rgttbl{
+    border: solid 2px darkblue;
+    background-color: rgba(250, 235, 215, 0.547);
+    width: 96%;
+    height: 90%;
+    overflow: auto;
+    margin: auto;
+}
+.de {
+    float: left;
+    border: aqua solid 2px;
+    border-radius: 33%;
+    padding: 4px;
+    background-color: #f91818;
+    font-weight: bolder;
+}
+.de:hover {
+    background-color: #7ec5d9;
+}
+.de:focus{
+    background-color: cornflowerblue;
+}
+.sa {
+    float: right;
+    border: aqua solid 2px;
+    border-radius: 33%;
+    padding: 4px;
+    background-color: #18f923;
+    font-weight: bolder;
+}
+.sa:hover {
+    background-color: #d97ec8;
+}
+.sa:focus{
+    background-color: rgb(216, 237, 100);
+}
